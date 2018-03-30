@@ -16,5 +16,12 @@ public class BankAccount {
     balance -= amount;
     return amount;
   }
+  public void credit(double amount) {
+    this.balance +=amount;
+  }
+  
+  public double getBalance() {
+    return this.balance;
+  }
 
 }
