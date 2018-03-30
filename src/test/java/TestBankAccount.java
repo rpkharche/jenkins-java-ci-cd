@@ -11,4 +11,9 @@ public class TestBankAccount {
        double amount = account.debit(5);
        Assert.assertEquals(5.0, amount);
     }
+	public void testInsufficientFunds() {
+       BankAccount account = new BankAccount(7);
+       double amount = account.debit(8);
+       Assert.assertEquals(7.0, amount);
+    }
 }
