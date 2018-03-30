@@ -1,2 +1,2 @@
-# jenkins-java-ci-cd
-Attempt to connect github with openshift jenkins
+# jenkins-java-maven
+This is a java project for maven with jenkins
